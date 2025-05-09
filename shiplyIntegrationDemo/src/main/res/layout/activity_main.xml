@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <Button
+            android:id="@+id/btn_config_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="配置开关测试"
+            android:layout_marginBottom="8dp"/>
+
+    <Button
+            android:id="@+id/btn_resource_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="资源制品测试"
+            android:layout_marginBottom="8dp"/>
+
+    <Button
+            android:id="@+id/btn_app_upgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="应用内升级测试"
+            android:layout_marginBottom="8dp"/>
+
+    <Button
+            android:id="@+id/btn_hotfix_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="热修测试"/>
+
+</LinearLayout>
